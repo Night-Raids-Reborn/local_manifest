@@ -20,5 +20,5 @@
         <!-- Trees -->
         <project path="device/xiaomi/juice" name="dragonroad99/ciemen" remote="github" revision="test" clone-depth="1" />
         <project path="vendor/xiaomi/citrus" name="darknius09/vendor_xiaomi_citrus_Q" remote="github" revision="los17" clone-depth="1" />
-        <project path="kernel/xiaomi/juice" name="DarkLegacy_kernel_citrus" remote="darknius20" revision="protest" clone-depth="1" />
+        <project path="kernel/xiaomi/juice" name="stormbreaker-project/kernel_poco_citrus" remote="github" revision="main" clone-depth="1" />
 </manifest>
