@@ -18,7 +18,7 @@
         <project path="packages/apps/DU-Tweaks" name="android_packages_apps_DU-Tweaks" remote="darklightnest" revision="10" clone-depth="1" />
         
         <!-- Trees -->
-        <project path="device/xiaomi/citrus" name="darknius20/devise" remote="github" revision="10" clone-depth="1" />
-        <project path="vendor/xiaomi/citrus" name="darknius09/vendor_xiaomi_citrus_Q" remote="github" revision="los17" clone-depth="1" />
+        <project path="device/xiaomi/juice" name="darknius20/devise" remote="github" revision="10" clone-depth="1" />
+        <project path="vendor/xiaomi/juice" name="darknius09/vendor_xiaomi_citrus_Q" remote="github" revision="los17" clone-depth="1" />
         <project path="kernel/xiaomi/citrus" name="stormbreaker-project/kernel_poco_citrus" remote="github" revision="main" clone-depth="1" />
 </manifest>
