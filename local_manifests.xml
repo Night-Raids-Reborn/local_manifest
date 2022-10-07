@@ -6,6 +6,6 @@
         
         <!-- Trees -->
         <project path="device/xiaomi/juice" name="darknius20/devise" remote="github" revision="rr" clone-depth="1" />
-        <project path="vendor/xiaomi/juice" name="darknius09/vendor_xiaomi_citrus_Q" remote="github" revision="los17" clone-depth="1" />
-        <project path="kernel/xiaomi/citrus" name="stormbreaker-project/kernel_poco_citrus" remote="github" revision="main" clone-depth="1" />
+        <project path="vendor/xiaomi/citrus" name="darknius09/vendor_xiaomi_citrus_Q" remote="github" revision="los17" clone-depth="1" />
+        <project path="kernel/xiaomi/juice" name="stormbreaker-project/kernel_poco_citrus" remote="github" revision="main" clone-depth="1" />
 </manifest>
