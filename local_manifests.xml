@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<manifest>        
+<manifest>
+        
+        <!-- remove --> 
+        <remove-project name="LineageOS/android_vendor_codeaurora_telephony" />
+        
+        <!-- Fork -->
+        <project path="vendor/codeaurora/telephony" name="Night-Raids-Reborn/android_vendor_codeaurora_telephony" remote="github" revision="lineage-17.1" clone-depth="1" />
+        
         <!-- Trees -->
         <project path="device/xiaomi/juice" name="Night-Raids-Reborn/diemen" remote="github" revision="rr" clone-depth="1" />
         <project path="vendor/xiaomi/juice" name="Night-Raids-Reborn/viemen" remote="github" revision="10.staging" clone-depth="1" />
