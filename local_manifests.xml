@@ -10,5 +10,5 @@
         <!-- Trees -->
         <project path="device/xiaomi/juice" name="Night-Raids-Reborn/diemen" remote="github" revision="qassa" clone-depth="1" />
         <project path="vendor/xiaomi/juice" name="Night-Raids-Reborn/viemen" remote="github" revision="10.staging" clone-depth="1" />
-        <project path="kernel/xiaomi/juice" name="darknius20/guuji_kernel_juice" remote="github" revision="main.stbl" clone-depth="1" />
+        <project path="kernel/xiaomi/juice" name="Night-Raids-Reborn/DarkLegacy_kernel_citrus" remote="github" revision="proton-master" clone-depth="1" />
 </manifest>
