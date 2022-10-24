@@ -8,7 +8,7 @@
         <project path="vendor/codeaurora/telephony" name="Night-Raids-Reborn/android_vendor_codeaurora_telephony" remote="github" revision="lineage-17.1" clone-depth="1" />
         
         <!-- Trees -->
-        <project path="device/xiaomi/juice" name="Night-Raids-Reborn/diemen" remote="github" revision="qassa" clone-depth="1" />
+        <project path="device/xiaomi/juice" name="Night-Raids-Reborn/diemen" remote="github" revision="bootlegq" clone-depth="1" />
         <project path="vendor/xiaomi/juice" name="Night-Raids-Reborn/viemen" remote="github" revision="10.staging" clone-depth="1" />
         <project path="kernel/xiaomi/juice" name="Night-Raids-Reborn/DarkLegacy_kernel_citrus" remote="github" revision="proton-master" clone-depth="1" />
 </manifest>
