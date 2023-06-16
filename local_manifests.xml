@@ -5,7 +5,7 @@
           revision="topaz" />
                 
         <!-- addon -->
-        <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-20" clone-depth="1" />
+        <project path="hardware/xiaomi" name="P-404/android_hardware_xiaomi" remote="github" revision="tokui" clone-depth="1" />
      
         <!-- Trees -->
         <project path="device/xiaomi/sm6225-common" name="la_device_xiaomi_sm6225-common" remote="pixel-devices-blobs" clone-depth="1" />
