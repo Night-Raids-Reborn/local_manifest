@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- Trees -->
-  <project path="device/xiaomi/juice" name="Night-Raids-Reborn/devise" remote="github" revision="11" clone-depth="1" />
-  <project path="vendor/xiaomi/juice" name="Night-Raids-Reborn/android_vendor_xiaomi_juice" remote="github" revision="11.0" clone-depth="1" />
-  <project path="kernel/xiaomi/juice" name="darknius20/guuji_kernel_juice" remote="github" revision="main.stbl" clone-depth="1" />
+
+        <!-- Remote -->
+        <remote name="IDN-Labs" fetch="https://github.com/IDN-Labs" clone-depth="1" />
+        <remote name="Lynx" fetch="https://github.com/lynnnnzx" clone-depth="1" />
+        <remote name="gf" fetch="https://github.com/Night-Raids-Reborn" clone-depth="1" />
+
+        <!-- Trees -->
+        <project path="device/xiaomi/juice" name="android_device_xiaomi_juice-r" remote="Lynx" revision="caf" />
+        <project path="vendor/xiaomi/juice" name="vendor_xiaomi_juice" remote="Lynx" revision="twelve" />
+        <project path="kernel/xiaomi/juice" name="kernel_xiaomi_citrus_sm6115" remote="gf" revision="main" />
+
 </manifest>
