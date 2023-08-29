@@ -2,6 +2,6 @@
 <manifest>
         <!-- Trees -->
         <project path="device/xiaomi/citrus" name="Night-Raids-Reborn/eng_device_xiaomi_citrus" remote="github" revision="prebuilt" clone-depth="1" />
-        <project path="vendor/xiaomi/citrus" name="Night-Raids-Reborn/eng_vendor_xiaomi_citrus" remote="github" revision="prebuilt" clone-depth="1" />
+        <project path="vendor/xiaomi/citrus" name="Night-Raids-Reborn/eng_vendor_xiaomi_citrus" remote="github" revision="prebuilt-1" clone-depth="1" />
         <project path="kernel/xiaomi/citrus" name="Night-Raids-Reborn/DarkLegacy_kernel_citrus" remote="github" revision="proton-master" clone-depth="1" />
 </manifest>
