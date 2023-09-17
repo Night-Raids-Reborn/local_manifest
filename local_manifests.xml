@@ -4,7 +4,7 @@
     fetch="https://github.com/Night-Raids-Reborn" />
         
         <!-- remove -->
-  <remove-project name="LineageOS/android_vendor_codeaurora_telephony" />
+  <remove-project name="android_vendor_codeaurora_telephony" />
   
         <!-- Trees -->
         <project path="device/xiaomi/citrus" name="eng_device_xiaomi_citrus" remote="night" revision="prebuilt" clone-depth="1" />
