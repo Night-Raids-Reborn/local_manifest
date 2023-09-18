@@ -9,7 +9,7 @@
   <remove-project name="android_vendor_codeaurora_telephony" />
   
         <!-- Trees -->
-        <project path="device/xiaomi/citrus" name="eng_device_xiaomi_citrus" remote="night" revision=" " clone-depth="1" />
+        <project path="device/xiaomi/citrus" name="eng_device_xiaomi_citrus" remote="night" revision="build" clone-depth="1" />
         <project path="vendor/xiaomi/citrus" name="eng_vendor_xiaomi_citrus" remote="night" revision="main" clone-depth="1" />
         <project path="kernel/xiaomi/citrus" name="DarkLegacy_kernel_citrus" remote="night" revision="proton-master" clone-depth="1" />
         <project path="prebuilts/clang/host/linux-x86/clang-sd" name="SDClang" remote="clang" revision="14.0.3" clone-depth="1" />
