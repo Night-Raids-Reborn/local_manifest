@@ -6,9 +6,11 @@
 
         <remote name="lab"
           fetch="https://gitlab.com" />
+        <remote name="tub"
+          fetch="https://github.com" />
         
         <!-- Trees -->
-        <project path="device/xiaomi/sm6115-common" name="device_xiaomi_sm6115-common" remote="pixel-devices-blobs" clone-depth="1" />
+        <project path="device/xiaomi/sm6115-common" name="Night-Raids-Reborn/device_xiaomi_sm6115-common" remote="tub" revision="14" clone-depth="1" />
         <project path="device/xiaomi/citrus" name="device_xiaomi_citrus" remote="pixel-devices-blobs" clone-depth="1" />
         <project path="vendor/xiaomi/sm6115-common" name="vendor_xiaomi_sm6115-common" remote="pixel-devices-blobs" clone-depth="1" />
         <project path="vendor/xiaomi/citrus" name="vendor_xiaomi_citrus" remote="pixel-devices-blobs" clone-depth="1" />
