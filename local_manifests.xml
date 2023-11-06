@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-        <remote name="pixel-devices-blobs"
+        <remote name="night"
           fetch="https://github.com/Night-Raids-Reborn"
-          revision="thirteen" />
+          revision="14" />
 
         <remote name="lab"
           fetch="https://gitlab.com" />
@@ -13,10 +13,10 @@
            revision="refs/heads/udc" />
         
         <!-- Trees -->
-        <project path="device/xiaomi/sm6115-common" name="Night-Raids-Reborn/device_xiaomi_sm6115-common" remote="tub" revision="14" clone-depth="1" />
-        <project path="device/xiaomi/citrus" name="device_xiaomi_citrus" remote="pixel-devices-blobs" clone-depth="1" />
-        <project path="vendor/xiaomi/sm6115-common" name="vendor_xiaomi_sm6115-common" remote="pixel-devices-blobs" clone-depth="1" />
-        <project path="vendor/xiaomi/citrus" name="vendor_xiaomi_citrus" remote="pixel-devices-blobs" clone-depth="1" />
+        <project path="device/xiaomi/sm6115-common" name="device_xiaomi_sm6115-common" remote="night" clone-depth="1" />
+        <project path="device/xiaomi/citrus" name="device_xiaomi_citrus" remote="night" clone-depth="1" />
+        <project path="vendor/xiaomi/sm6115-common" name="vendor_xiaomi_sm6115-common" remote="night" clone-depth="1" />
+        <project path="vendor/xiaomi/citrus" name="vendor_xiaomi_citrus" remote="night" clone-depth="1" />
         <project path="kernel/xiaomi/sm6115" name="darknius20/guuji_kernel_juice" remote="github" revision="main.stbl" clone-depth="1" />
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="lab" revision="master" clone-depth="1" />
         <project path="hardware/xiaomi" name="hardware_xiaomi" remote="evo" />
