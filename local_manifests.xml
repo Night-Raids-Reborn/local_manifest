@@ -6,6 +6,9 @@
 
         <remote name="lab"
           fetch="https://gitlab.com" />
+
+        <!-- remove -->
+        <remove-project name="LineageOS/android_vendor_qcom_opensource_vibrator" />
         
         <!-- Trees -->
         <project path="device/xiaomi/sm6115-common" name="device_xiaomi_sm6115-common" remote="pixel-devices-blobs" clone-depth="1" />
