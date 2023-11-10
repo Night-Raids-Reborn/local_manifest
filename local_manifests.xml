@@ -4,7 +4,7 @@
           fetch="https://github.com/Night-Raids-Reborn"
           revision="14" />
         <remote name="pe"
-          fetch="https://gitlab.pixelexperience.org/android"
+          fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"
           revision="thirteen" />
 
         <remote name="lab"
