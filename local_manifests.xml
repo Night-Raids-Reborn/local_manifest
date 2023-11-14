@@ -11,6 +11,7 @@
 
         <!-- remove -->
         <remove-project name="LineageOS/android_vendor_qcom_opensource_vibrator" />
+        <remove-project name="android_vendor_qcom_opensource_vibrator" />
         
         <!-- Trees -->
         <project path="device/xiaomi/sm6115-common" name="device_xiaomi_sm6115-common" remote="night" clone-depth="1" />
