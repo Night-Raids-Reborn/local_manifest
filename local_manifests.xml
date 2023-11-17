@@ -8,9 +8,6 @@
           fetch="https://gitlab.com" />
         <remote name="tub"
           fetch="https://github.com" />
-        <remote  name="evo"
-           fetch="https://github.com/Evolution-X"
-           revision="refs/heads/udc" />
         
         <!-- Trees -->
         <project path="device/xiaomi/sm6115-common" name="device_xiaomi_sm6115-common" remote="night" clone-depth="1" />
