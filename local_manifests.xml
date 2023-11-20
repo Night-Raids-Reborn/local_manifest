@@ -2,7 +2,7 @@
 <manifest>
         <remote name="night"
           fetch="https://github.com/Night-Raids-Reborn"
-          revision="u" />
+          revision="u-libperf" />
 
         <remote name="lab"
           fetch="https://gitlab.com" />
