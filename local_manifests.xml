@@ -2,7 +2,7 @@
 <manifest>
         <remote name="night"
           fetch="https://github.com/Night-Raids-Reborn"
-          revision="u-libperf" />
+          revision="14" />
 
         <remote name="lab"
           fetch="https://gitlab.com" />
@@ -10,10 +10,10 @@
           fetch="https://github.com" />
         
         <!-- Trees -->
-        <project path="device/xiaomi/bengal" name="device_xiaomi_bengal" remote="night" clone-depth="1" />
+        <project path="device/xiaomi/sm6115-common" name="device_xiaomi_sm6115-common" remote="night" clone-depth="1" />
         <project path="device/xiaomi/citrus" name="device_xiaomi_citrus" remote="night" clone-depth="1" />
-        <project path="vendor/xiaomi/bengal" name="vendor_xiaomi_bengal" remote="night" clone-depth="1" />
-        <project path="vendor/xiaomi/citrus" name="darknius09/vendor_xiaomi_citrus" remote="lab" revision="u" clone-depth="1" />
-        <project path="kernel/xiaomi/bengal" name="darknius20/guuji_kernel_juice" remote="tub" revision="main.stbl" clone-depth="1" />
+        <project path="vendor/xiaomi/sm6115-common" name="vendor_xiaomi_sm6115-common" remote="night" clone-depth="1" />
+        <project path="vendor/xiaomi/citrus" name="vendor_xiaomi_citrus" remote="night" clone-depth="1" />
+        <project path="kernel/xiaomi/sm6115" name="darknius20/guuji_kernel_juice" remote="tub" revision="main.stbl" clone-depth="1" />
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="lab" revision="master" clone-depth="1" />
 </manifest>
