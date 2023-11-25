@@ -8,6 +8,11 @@
           fetch="https://gitlab.com" />
         <remote name="tub"
           fetch="https://github.com" />
+
+        <!-- Rm -->
+        <remove-project name="hardware_xiaomi" />
+        <remove-project name="android_hardware_xiaomi" />
+        
         
         <!-- Trees -->
         <project path="device/xiaomi/bengal" name="device_xiaomi_bengal" remote="night" clone-depth="1" />
@@ -15,5 +20,10 @@
         <project path="vendor/xiaomi/bengal" name="vendor_xiaomi_bengal" remote="night" clone-depth="1" />
         <project path="vendor/xiaomi/citrus" name="darknius09/vendor_xiaomi_citrus" remote="lab" revision="u" clone-depth="1" />
         <project path="kernel/xiaomi/bengal" name="greenforce-project/kernel_xiaomi_citrus_sm6115" remote="tub" revision="snowcone" clone-depth="1" />
+
+        <!-- clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="lab" revision="master" clone-depth="1" />
+
+        <!-- Fork -->
+        <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="tub" revision="lineage-21" />
 </manifest>
