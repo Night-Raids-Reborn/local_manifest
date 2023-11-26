@@ -25,5 +25,5 @@
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="lab" revision="master" clone-depth="1" />
 
         <!-- Fork -->
-        <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="tub" revision="lineage-21" />
+        <project path="hardware/xiaomi" name="Evolution-X/hardware_xiaomi" remote="tub" revision="udc" />
 </manifest>
