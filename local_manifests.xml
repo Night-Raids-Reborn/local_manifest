@@ -8,11 +8,6 @@
           fetch="https://gitlab.com" />
         <remote name="tub"
           fetch="https://github.com" />
-
-        <!-- Rm -->
-        <remove-project name="hardware_xiaomi" />
-        <remove-project name="android_hardware_xiaomi" />
-        
         
         <!-- Trees -->
         <project path="device/xiaomi/bengal" name="device_xiaomi_bengal" remote="night" clone-depth="1" />
