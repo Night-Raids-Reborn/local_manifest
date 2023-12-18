@@ -9,15 +9,19 @@
           fetch="https://github.com" />
   
   <!-- Trees -->
-  <remove-project name="xd_hardware_xiaomi"/>
+  <remove-project name="xd_build_soong"/>
   
   <!-- Trees -->
   <project path="device/xiaomi/chime" name="device_xiaomi_chime-r" remote="night" revision="caf" clone-depth="1" />
   <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime-r" remote="night" revision="eleven" clone-depth="1" />
   <project path="kernel/xiaomi/chime" name="greenforce-project/kernel_xiaomi_citrus_sm6115" remote="tub" revision="titanium" clone-depth="1" />
 
-  <!-- Trees -->
-  <project path="hardware/xiaomi" name="xdCLO/xd_hardware_xiaomi" revision="eleven-h" remote="tub" />
+  <!-- Tre -->
+  <project path="build/soong" name="xd_build_soong" revision="eleven-h" remote="xdclo" >
+	   <linkfile src="root.bp" dest="Android.bp"/>
+	   <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
+  </project>
+
 
   <!-- clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="lab" revision="master" clone-depth="1" />
