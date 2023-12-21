@@ -2,12 +2,15 @@
 <manifest>
         <remote name="night"
           fetch="https://github.com/Night-Raids-Reborn"
-          revision="14" />
+          revision="topaz" />
 
         <remote name="lab"
           fetch="https://gitlab.com" />
         <remote name="tub"
           fetch="https://github.com" />
+
+        <!-- rm -->
+        <remove-project name="android_vendor_pixeldust"/>
         
         <!-- Trees -->
         <project path="device/xiaomi/sm6225-common" name="la_device_xiaomi_sm6225-common" remote="night" clone-depth="1" />
@@ -16,4 +19,9 @@
         <project path="vendor/xiaomi/citrus" name="la_vendor_xiaomi_citrus" remote="night" clone-depth="1" />
         <project path="kernel/msm-4.19" name="gf" remote="night" clone-depth="1" />
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="lab" revision="master" clone-depth="1" />
+
+        <!-- fork -->
+        <project path="vendor/pixeldust" name="android_vendor_pixeldust" remote="night" >
+          <copyfile src="build/tools/build.sh" dest="rom-build.sh" />
+        </project>
 </manifest>
