@@ -21,8 +21,4 @@
         <!-- Addon -->
         <project path="device/xiaomi/citrus-kernel" name="frostg-012/android_device_xiaomi_citrus-kernel" remote="tub" revision="topaz" clone-depth="1" />
         <project path="kernel/msm-4.19" name="Night-Raids-Reborn/gf" remote="tub" revision="topaz" clone-depth="1" />
-
-        <project path="vendor/aospa" name="AOSPA/android_vendor_aospa"  remote="tub" revision="uvite" clone-depth="1" />
-           <linkfile src="build.sh" dest="rom-build.sh" />
-        </project>
 </manifest>
