@@ -8,12 +8,9 @@
           fetch="https://gitlab.com" />
         <remote name="tub"
           fetch="https://github.com" />
-        <remote  name="evo"
-           fetch="https://github.com/Evolution-X"
-           revision="udc" />
 
         <!-- rm -->
-        <remove-project name="LineageOS/android_packages_resources_devicesettings" />
+        <remove-project name="packages_resources_devicesettings" />
         
         <!-- Trees -->
         <project path="device/xiaomi/sm6115-common" name="device_xiaomi_sm6115-common" remote="night" clone-depth="1" />
@@ -22,5 +19,4 @@
         <project path="vendor/xiaomi/citrus" name="vendor_xiaomi_citrus" remote="night" clone-depth="1" />
         <project path="kernel/xiaomi/bengal" name="greenforce-project/kernel_xiaomi_citrus_sm6115" remote="tub" revision="titanium" clone-depth="1" />
         <project path="packages/resources/devicesettings" name="PixelExperience/packages_resources_devicesettings" remote="tub" revision="thirteen" />
-        <project path="hardware/xiaomi" name="hardware_xiaomi" remote="evo" />
 </manifest>
