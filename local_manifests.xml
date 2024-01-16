@@ -11,6 +11,9 @@
         <remote  name="evo"
            fetch="https://github.com/Evolution-X"
            revision="udc" />
+
+        <!-- rm -->
+        <remove-project name="LineageOS/android_packages_resources_devicesettings" />
         
         <!-- Trees -->
         <project path="device/xiaomi/sm6115-common" name="device_xiaomi_sm6115-common" remote="night" clone-depth="1" />
