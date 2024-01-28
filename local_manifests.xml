@@ -3,5 +3,5 @@
   <!-- Trees -->
   <project path="device/xiaomi/citrus" name="Night-Raids-Reborn/devise" remote="github" revision="11-citrus-pow" clone-depth="1" />
   <project path="vendor/xiaomi/citrus" name="Night-Raids-Reborn/android_vendor_xiaomi_citrus" remote="github" revision="11" clone-depth="1" />
-  <project path="kernel/xiaomi/citrus" name="Night-Raids-Reborn/kernel_xiaomi_citrus_sm6115" remote="github" revision="snowcone" clone-depth="1" />
+  <project path="kernel/xiaomi/citrus" name="Night-Raids-Reborn/darx_kernel_juice" remote="github" revision="main.stbl" clone-depth="1" />
 </manifest>
