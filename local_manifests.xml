@@ -17,6 +17,6 @@
         <project path="kernel/xiaomi/sm6115" name="darknius20/guuji_kernel_juice" remote="hub" revision="main.stbl" clone-depth="1" />
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="lab" revision="master" clone-depth="1" />
         <!-- fork -->
-        <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="hub" revision="lineage-20" clone-depth="1" />
+        <project path="hardware/xiaomi" name="ArrowOS-Devices/android_hardware_xiaomi" remote="hub" revision="arrow-13.1" clone-depth="1" />
 
 </manifest>
