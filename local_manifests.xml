@@ -10,12 +10,10 @@
           fetch="https://github.com" />
         
         <!-- Trees -->
-        <project path="device/xiaomi/sm6115-common" name="device_xiaomi_sm6115-common" remote="night" clone-depth="1" />
+        <project path="device/xiaomi/sm6115-common" name="device_xiaomi_sm6115-common" remote="night" revision="u-biasa" clone-depth="1" />
         <project path="device/xiaomi/citrus" name="device_xiaomi_citrus" remote="night" clone-depth="1" />
         <project path="vendor/xiaomi/sm6115-common" name="vendor_xiaomi_sm6115-common" remote="night" clone-depth="1" />
         <project path="vendor/xiaomi/citrus" name="vendor_xiaomi_citrus" remote="night" clone-depth="1" />
         <project path="kernel/xiaomi/sm6115" name="greenforce-project/kernel_xiaomi_citrus_sm6115" remote="tub" revision="snowcone" clone-depth="1" />
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="lab" revision="master" clone-depth="1" />
-        <!-- Fork -->
-        <project path="hardware/xiaomi" name="Evolution-X/hardware_xiaomi" remote="tub" revision="udc" />
 </manifest>
