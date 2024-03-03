@@ -10,6 +10,7 @@
           fetch="https://github.com" />
 
         <!-- rm -->
+        <remove-project name="proprietary_vendor_qcom_common"/>
         <remove-project name="AOSPA/android_vendor_aospa"/>
         
         <!-- Trees -->
@@ -21,6 +22,7 @@
         <project path="kernel/msm-4.19" name="kernel_xiaomi_citrus_sm6115" remote="night" clone-depth="1" />
 
         <!-- fork -->
+        <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="night" />
         <project path="vendor/aospa" name="android_vendor_aospa" remote="night" clone-depth="1" >
           <linkfile src="build.sh" dest="rom-build.sh" />
         </project>
