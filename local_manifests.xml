@@ -19,6 +19,8 @@
         <project path="vendor/xiaomi/citrus" name="vendor_xiaomi_citrus" remote="night" clone-depth="1" />
         <project path="device/xiaomi/citrus-kernel" name="android_device_xiaomi_citrus-kernel" remote="night" clone-depth="1" />
         <!-- fork -->
-        <project path="vendor/aospa" name="android_vendor_aospa" remote="night" clone-depth="1" />
+        <project path="vendor/aospa" name="android_vendor_aospa" remote="night" clone-depth="1" >
+          <copyfile src="build/tools/build.sh" dest="rom-build.sh" />
+        </project>
 
 </manifest>
