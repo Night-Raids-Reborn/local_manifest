@@ -24,6 +24,6 @@
 
         <!-- fork -->
         <project path="vendor/aospa" name="frostg-012/android_vendor_aospa" remote="tub" revision="uvite" clone-depth="1" >
-          <copyfile src="build/tools/build.sh" dest="rom-build.sh" />
+          <linkfile src="build.sh" dest="rom-build.sh" />
         </project>
 </manifest>
