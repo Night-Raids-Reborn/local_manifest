@@ -14,6 +14,5 @@
         <project path="device/xiaomi/citrus" name="device_xiaomi_citrus" remote="night" clone-depth="1" />
         <project path="vendor/xiaomi/sm6115-common" name="vendor_xiaomi_sm6115-common" remote="night" clone-depth="1" />
         <project path="vendor/xiaomi/citrus" name="vendor_xiaomi_citrus" remote="night" clone-depth="1" />
-        <project path="kernel/xiaomi/sm6115" name="greenforce-project/kernel_xiaomi_citrus_sm6115" remote="tub" revision="snowcone" clone-depth="1" />
-        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="lab" revision="master" clone-depth="1" />
+        <project path="kernel/xiaomi/sm6115" name="kernel_xiaomi_citrus_sm6115" remote="night" revision="snowcone" clone-depth="1" />
 </manifest>
