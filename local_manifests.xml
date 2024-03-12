@@ -11,8 +11,8 @@
         
         <!-- Trees -->
         <project path="device/xiaomi/sm6115-common" name="device_xiaomi_sm6115-common" remote="night" clone-depth="1" />
-        <project path="device/xiaomi/citrus" name="device_xiaomi_citrus" remote="night" clone-depth="1" />
-        <project path="vendor/xiaomi/sm6115-common" name="vendor_xiaomi_sm6115-common" remote="night" clone-depth="1" />
-        <project path="vendor/xiaomi/citrus" name="vendor_xiaomi_citrus" remote="night" clone-depth="1" />
+        <project path="device/xiaomi/citrus" name="device_xiaomi_citrus" remote="night" clone-depth="1" revision="thirteen" />
+        <project path="vendor/xiaomi/sm6115-common" name="vendor_xiaomi_sm6115-common" remote="night" revision="thirteen" clone-depth="1" />
+        <project path="vendor/xiaomi/citrus" name="vendor_xiaomi_citrus" remote="night" clone-depth="1" revision="thirteen" />
         <project path="kernel/xiaomi/sm6115" name="greenforce-project/kernel_xiaomi_citrus_sm6115" remote="tub" revision="lineage-20" clone-depth="1" />
 </manifest>
